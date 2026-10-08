@@ -1,7 +1,7 @@
 .searchBarWrapper {
   margin: 1rem 0 0 0;
   display: flex;
-  justify-self: center;
+  margin-inline: auto;
   width: fit-content;
   position: relative;
 }
