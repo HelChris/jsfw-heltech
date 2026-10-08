@@ -4,7 +4,6 @@ Frontend webshop built with React, TypeScript, and Vite.
 
 <p align="center"><img width="738" height="504" alt="image" src="https://github.com/user-attachments/assets/9323ac80-e335-4837-be84-70c43c2d9ff4" /></p>
 
-
 🔗 **Live site**  
 [HelTech online shop](https://heltech.netlify.app/)
 
@@ -21,29 +20,33 @@ The main focus was learning modern frontend development while keeping the stack 
 
 The application includes a complete webshop flow with several core features implemented, including global state management using Zustand.
 
-
-
 ## Features
 
-- Product listing and details  
-- Cart functionality  
-- Checkout flow with success page  
-- Contact page  
-- Routing and 404 handling  
+- Product listing and details
+- Cart functionality
+- Checkout flow with success page
+- Contact page
+- Routing and 404 handling
 
 ---
 
 ## Tech Stack
 
-- React  
-- TypeScript  
-- Vite  
+- React
+- React DOM
+- TypeScript
+- Vite
 - React Router
 - Zustand
-- Vitest  
-- Testing Library  
-- ESLint  
-- Prettier  
+- Zod
+- Heroicons React
+- CSS Modules
+- PostCSS
+- Vitest
+- Testing Library
+- ESLint
+- Prettier
+- Husky and lint-staged
 
 ---
 
@@ -61,30 +64,31 @@ npm run dev
 
 ## Scripts
 
-npm run dev       # development server  
-npm run build     # production build  
-npm run preview   # preview build  
-npm run test      # run tests  
-npm run lint      # lint code  
-npm run format    # format code  
+npm run dev # development server  
+npm run build # production build  
+npm run preview # preview build  
+npm run test # run tests  
+npm run lint # lint code  
+npm run format # format code
 
 ---
 
 ## Project Structure
 
-- `components` – reusable UI  
-- `features` – pages and logic  
-- `hooks` – custom hooks  
-- `styles` – global styles  
-- `types` – TypeScript types  
-- `utils` – helper functions
-- `store` – Zustand Store 
+- `components` – reusable UI
+- `features` – pages and logic
+- `hooks` – custom hooks
+- `styles` – global styles
+- `types` – TypeScript types
+- `store` – Zustand stores
+- `testing` – test setup and test files
+- `features/*/utils` – feature-specific helper functions
 
 ---
 
 ## Notes
 
-- Collaboration between two developers  
-- Focus on learning and implementation  
-- Minimal use of external libraries  
-- Emphasis on clean structure and reusable components  
+- Collaboration between two developers
+- Focus on learning and implementation
+- Minimal use of external libraries
+- Emphasis on clean structure and reusable components
